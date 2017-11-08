@@ -1,0 +1,210 @@
+/* elements */
+* {
+    box-sizing: border-box;
+}
+strong{
+	font-weight: bold;
+}
+/*Page container*/
+.container{
+	width: 100%;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: block; 
+    color: black;
+    font-size: 20px;
+}
+/* clear-fixer*/
+.clear_fixer{
+	clear: both;
+}
+/* content page container*/
+.content{
+	display: block;
+	padding: 70px 200px 0 200px;
+	line-height: 20px;
+}
+.top_image{
+	width: 100%;
+}
+/* nav links and header_logo */
+.nav_links{
+	display: block;
+	box-sizing: border-box;
+	padding: 15px 200px;
+}
+
+.header_logo{
+	float: left;
+}
+.header_image{
+	display: block;
+	background-image: url(../images/2-in-one/bk-1.png);
+	height: 850px;
+	align-self: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav .menu{
+	display: none;
+}
+nav ol{
+	float: right;
+}
+nav li{
+	float: left;
+	margin-left: 10px;
+}
+nav li a{
+ 	display: block;
+    margin: 20px 0px;
+    color: black;
+    font-size: 14px;
+    border-right: 1px solid;
+    padding-right: 4px;
+    box-sizing: border-box;
+}
+nav ol li .download{
+	color: rgb(0,133,112);
+}
+/* savings */
+.heading{
+	text-align: center;
+}
+.heading h1{
+	font-size: 40px;
+	color: rgb(0,98,77);
+	line-height: 45px;
+}
+.heading p{
+	font-size: 20px;
+    padding: 20px 10px 90px 10px;
+    color: black;
+}
+.image_and_info{
+	clear: both;
+    display: block;
+    width: 100%;
+    height: 200px;
+    padding-left: 100px;
+}
+.image_and_info img{
+	float: left;
+}
+.info{
+    width: 80%;
+    float: right;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 27px;
+}
+.info h4{
+	color: rgb(0,98,77); 
+	font-size: 20px;
+	padding-right: 20px;
+
+}
+.info ul{
+	margin-left: 20px;
+    padding-top: 5px;
+}
+.info ul li{
+	list-style-type: disc;
+}
+/* benefits*/
+footer,.benefits{
+	box-sizing: border-box;
+	width: 100%;
+	background-color: rgb(0,133,112); 
+	color: white;
+	padding-bottom: 50px;
+}
+.benefits{
+	
+	padding: 40px 0 80px 0;
+}
+/* pink benefits heading*/
+.pink_heading{
+	clear: both;
+	width: 30%;
+	height: auto;
+	display: block;
+	text-align: center;
+	background-color: 	rgb(157,0,89);
+	overflow: auto;
+	padding: 25px 30px;
+	margin: 60px 450px 0 450px;
+	color: white;
+}
+.benefits .image_and_info{
+    box-sizing: border-box;
+    padding: 35px 200px 101px 300px;
+    line-height: 20px;
+    height: auto;
+}
+.table{
+	padding-top: 45px;
+}
+/* more4u */
+.more{
+	clear: both;
+	display: block;
+	box-sizing: border-box;
+	padding: 70px 200px 0 300px;
+	line-height: 20px;
+}
+.more_heading{
+	display: block;
+}
+.more .more_heading .logo_text {
+	box-sizing: border-box;
+    color: rgb(0,134,112);
+  	font-size: 42px;
+    line-height: 45px;
+    text-align: center;
+    padding-right: 1px;
+}
+.more .more_heading .logo_text img{
+	float: left;
+    padding-top: 5px;
+}
+.more .more_heading .logo{
+	font-size: 22px;
+	padding-left: 15px;
+    margin: 18px 2px 70px 0;
+}
+.more_imag_and_info{
+	display: block;
+    padding-bottom: 80px;
+    padding-left: 15px;
+    clear: both;
+}
+.more_imag_and_info img{
+	float: left;
+}
+.more_info{
+	width: 80%;
+    float: right;
+    text-align: justify;
+    font-size: 17px;
+    padding-top: 20px;
+    margin-right: 50px;
+
+}
+.more .ending_statement{
+    clear:both;
+	width: 100%;
+	padding-top: 60px;
+    text-align: center;
+    font-size: 14px;
+}
+/*footer*/
+footer{
+	text-align: center;
+	padding: 30px 200px ;
+	margin-top: 20px;
+	font-size: 12px;
+}
